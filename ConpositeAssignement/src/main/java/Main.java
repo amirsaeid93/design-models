@@ -1,26 +1,19 @@
 import java.util.*;
 
-/**
- * Assignment: Organization Structure using the Composite design pattern
- *
- * Single-file implementation for easy compiling and running:
- *   javac CompositeOrganization.java && java Main
- */
 
-// === Component ===
 interface OrgComponent {
     String getName();
     double getTotalSalary();
 
-    // Uniform add/remove operations (leafs will throw UnsupportedOperationException)
+
     default void add(OrgComponent c) { throw new UnsupportedOperationException("Cannot add to leaf"); }
     default void remove(OrgComponent c) { throw new UnsupportedOperationException("Cannot remove from leaf"); }
 
-    // XML serialization with indentation
+
     String toXml(int indent);
 }
 
-// === Leaf ===
+
 class Employee implements OrgComponent {
     private final String name;
     private final double salary;
@@ -41,7 +34,7 @@ class Employee implements OrgComponent {
     @Override
     public String toXml(int indent) {
         String spaces = " ".repeat(indent);
-        // Using attributes for compactness
+
         return String.format("%s<employee name=\"%s\" salary=\"%.2f\"/>\n", spaces, escape(name), salary);
     }
 
@@ -51,7 +44,7 @@ class Employee implements OrgComponent {
     }
 }
 
-// === Composite ===
+
 class Department implements OrgComponent {
     private final String name;
     private final List<OrgComponent> children = new ArrayList<>();
@@ -94,7 +87,7 @@ class Department implements OrgComponent {
     }
 }
 
-// === Root aggregate for convenience (not strictly required by Composite, but handy) ===
+
 class Organization {
     private final Department root;
 
@@ -102,7 +95,7 @@ class Organization {
 
     public Department getRoot() { return root; }
 
-    // Convenience, single-call helpers to satisfy the assignment wording
+
     public Department addDepartment(Department parent, String name) {
         Department d = new Department(name);
         parent.add(d);
@@ -138,10 +131,10 @@ class Organization {
     }
 }
 
-// === Demo ===
+
 public class Main {
     public static void main(String[] args) {
-        // Build an example organization
+
         Organization org = new Organization("Acme Corp");
         Department root = org.getRoot();
 
@@ -159,20 +152,20 @@ public class Main {
         org.addEmployee(apps, "Eve Android", 90000);
         org.addEmployee(apps, "Frank iOS", 91000);
 
-        // Print total salary (single call)
+
         org.printTotalSalary();
 
-        // Print XML of the full hierarchy (single call)
+
         org.printXml();
 
-        // Show add/remove at any time with single calls
+
         Employee contractor = org.addEmployee(platform, "Grace Contractor", 40000);
         org.printTotalSalary();
 
         org.remove(platform, contractor); // remove in one call
         org.printTotalSalary();
 
-        // Print XML again after changes
+
         org.printXml();
     }
 }

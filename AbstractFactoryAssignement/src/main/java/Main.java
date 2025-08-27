@@ -1,5 +1,5 @@
 public class Main {
-    // ---------------- Abstract UI Elements ----------------
+
     abstract static class UIElement {
         protected String text;
 
@@ -32,7 +32,7 @@ public class Main {
         }
     }
 
-    // ---------------- Concrete Elements: Style A ----------------
+
     static class ButtonA extends Button {
         public ButtonA(String text) {
             super(text);
@@ -66,7 +66,7 @@ public class Main {
         }
     }
 
-    // ---------------- Concrete Elements: Style B ----------------
+
     static class ButtonB extends Button {
         public ButtonB(String text) {
             super(text);
@@ -102,7 +102,7 @@ public class Main {
         }
     }
 
-    // ---------------- Abstract Factory ----------------
+
     abstract static class UIFactory {
         public abstract Button createButton(String text);
 
@@ -111,7 +111,7 @@ public class Main {
         public abstract Checkbox createCheckbox(String text);
     }
 
-    // ---------------- Concrete Factories ----------------
+
     static class AFactory extends UIFactory {
         @Override
         public Button createButton(String text) {

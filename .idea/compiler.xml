@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ObserverAssignement" />
-        <module name="AbstractFactoryAssignement" />
         <module name="CompositeAssignement1" />
-        <module name="AbstractFactoryAssignement1" />
         <module name="ConpositeAssignement" />
         <module name="FactoryMethodAssignement" />
+        <module name="ObserverAssignement" />
+        <module name="AbstractFactoryAssignement" />
+        <module name="AbstractFactoryAssignement1" />
+        <module name="SingletonAssignement" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

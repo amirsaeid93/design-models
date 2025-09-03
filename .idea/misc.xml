@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/CompositeAssignement1/pom.xml" />
         <option value="$PROJECT_DIR$/ObserverAssignement/pom.xml" />
         <option value="$PROJECT_DIR$/SingletonAssignement/pom.xml" />
+        <option value="$PROJECT_DIR$/DecoratorAssignement/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

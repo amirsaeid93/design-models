@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CompositeAssignement1" />
+        <module name="DecoratorAssignement" />
         <module name="ConpositeAssignement" />
         <module name="FactoryMethodAssignement" />
         <module name="ObserverAssignement" />

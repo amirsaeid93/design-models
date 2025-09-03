@@ -13,12 +13,14 @@
         <module name="FactoryMethodAssignement" />
         <module name="ObserverAssignement" />
         <module name="AbstractFactoryAssignement" />
+        <module name="TemplateMethodAssignement" />
         <module name="AbstractFactoryAssignement1" />
         <module name="SingletonAssignement" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FactoryMethodAssignement2" target="17" />
+      <module name="TemplateAssignement" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

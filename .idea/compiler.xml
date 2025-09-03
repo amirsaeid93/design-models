@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CompositeAssignement1" />
         <module name="DecoratorAssignement" />
+        <module name="StateAssignement" />
         <module name="ConpositeAssignement" />
         <module name="FactoryMethodAssignement" />
         <module name="ObserverAssignement" />

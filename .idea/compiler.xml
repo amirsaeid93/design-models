@@ -16,6 +16,7 @@
         <module name="ObserverAssignement" />
         <module name="AbstractFactoryAssignement" />
         <module name="AbstractFactoryAssignement1" />
+        <module name="ChainOfResponsibility" />
         <module name="StrategyAssignement" />
       </profile>
     </annotationProcessing>

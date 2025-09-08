@@ -17,11 +17,16 @@
         <option value="$PROJECT_DIR$/StateAssignement/pom.xml" />
         <option value="$PROJECT_DIR$/TemplateAssignement/pom.xml" />
         <option value="$PROJECT_DIR$/TemplateMethodAssignement/pom.xml" />
+        <option value="$PROJECT_DIR$/PractiseExample/pom.xml" />
+        <option value="$PROJECT_DIR$/PractiseExample1/pom.xml" />
+        <option value="$PROJECT_DIR$/StrategyAssignement/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/FactoryMethodAssignement2/pom.xml" />
+        <option value="$PROJECT_DIR$/PractiseExample/pom.xml" />
+        <option value="$PROJECT_DIR$/PractiseExample1/pom.xml" />
         <option value="$PROJECT_DIR$/TemplateAssignement/pom.xml" />
       </set>
     </option>

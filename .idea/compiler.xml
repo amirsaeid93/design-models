@@ -7,19 +7,22 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CompositeAssignement1" />
+        <module name="TemplateMethodAssignement" />
+        <module name="SingletonAssignement" />
         <module name="DecoratorAssignement" />
         <module name="StateAssignement" />
         <module name="ConpositeAssignement" />
         <module name="FactoryMethodAssignement" />
         <module name="ObserverAssignement" />
         <module name="AbstractFactoryAssignement" />
-        <module name="TemplateMethodAssignement" />
         <module name="AbstractFactoryAssignement1" />
-        <module name="SingletonAssignement" />
+        <module name="StrategyAssignement" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FactoryMethodAssignement2" target="17" />
+      <module name="PractiseExample" target="17" />
+      <module name="PractiseExample1" target="17" />
       <module name="TemplateAssignement" target="17" />
     </bytecodeTargetLevel>
   </component>

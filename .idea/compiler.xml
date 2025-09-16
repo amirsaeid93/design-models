@@ -21,6 +21,7 @@
         <module name="TemperatureConverterAssignement" />
         <module name="MementoAssignement" />
         <module name="StrategyAssignement" />
+        <module name="ProxyAssignement" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

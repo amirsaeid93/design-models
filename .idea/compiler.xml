@@ -16,8 +16,10 @@
         <module name="ObserverAssignement" />
         <module name="AbstractFactoryAssignement" />
         <module name="AbstractFactoryAssignement1" />
+        <module name="PractiseAssignement" />
         <module name="ChainOfResponsibility" />
         <module name="TemperatureConverterAssignement" />
+        <module name="MementoAssignement" />
         <module name="StrategyAssignement" />
       </profile>
     </annotationProcessing>

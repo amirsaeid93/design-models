@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CompositeAssignement1" />
+        <module name="PractiseAssignement1" />
         <module name="TemplateMethodAssignement" />
         <module name="SingletonAssignement" />
         <module name="DecoratorAssignement" />

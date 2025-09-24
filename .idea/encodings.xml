@@ -5,6 +5,12 @@
     <file url="file://$PROJECT_DIR$/AbstractFactoryAssignement/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AbstractFactoryAssignement1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/AbstractFactoryAssignement1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AdapterAssignement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AdapterAssignement/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BridgeAssignement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BridgeAssignement/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BuilderAssignement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BuilderAssignement/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ChainOfResponsibility/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ChainOfResponsibility/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CompositeAssignement1/src/main/java" charset="UTF-8" />
@@ -19,6 +25,8 @@
     <file url="file://$PROJECT_DIR$/FactoryMethodAssignement1/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FactoryMethodAssignement2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FactoryMethodAssignement2/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlyweightAssignement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FlyweightAssignement/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MementoAssignement/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MementoAssignement/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ObserverAssignement/src/main/java" charset="UTF-8" />

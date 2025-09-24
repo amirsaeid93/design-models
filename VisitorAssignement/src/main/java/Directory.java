@@ -37,6 +37,5 @@ public class Directory implements FileSystemElement {
             child.accept(visitor);
         }
     }
-
 }
 

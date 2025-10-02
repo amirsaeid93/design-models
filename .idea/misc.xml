@@ -31,6 +31,8 @@
         <option value="$PROJECT_DIR$/AdapterAssignement/pom.xml" />
         <option value="$PROJECT_DIR$/BridgeAssignement/pom.xml" />
         <option value="$PROJECT_DIR$/FlyweightAssignement/pom.xml" />
+        <option value="$PROJECT_DIR$/PrototypeAssignement/pom.xml" />
+        <option value="$PROJECT_DIR$/MediatorAssignement/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

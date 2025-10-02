@@ -5,7 +5,7 @@ public class Main {
 
         date.setYear(2025);
         date.setMonth(9);
-        date.setDay(24);
+        date.setDay(25);
 
         System.out.println("Initial Date is: " + ((CalendarToNewDateAdapter) date).getFormattedDate());
 

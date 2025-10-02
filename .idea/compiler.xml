@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CompositeAssignement1" />
         <module name="PractiseAssignement1" />
+        <module name="PrototypeAssignement" />
         <module name="FlyweightAssignement" />
         <module name="TemplateMethodAssignement" />
         <module name="SingletonAssignement" />
         <module name="BuilderAssignement" />
+        <module name="MediatorAssignement" />
         <module name="DecoratorAssignement" />
         <module name="AdapterAssignement" />
         <module name="StateAssignement" />

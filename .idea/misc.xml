@@ -33,15 +33,10 @@
         <option value="$PROJECT_DIR$/FlyweightAssignement/pom.xml" />
         <option value="$PROJECT_DIR$/PrototypeAssignement/pom.xml" />
         <option value="$PROJECT_DIR$/MediatorAssignement/pom.xml" />
+        <option value="$PROJECT_DIR$/IteratorAssignement/pom.xml" />
+        <option value="$PROJECT_DIR$/FacadeAssignement/pom.xml" />
+        <option value="$PROJECT_DIR$/CommandAssignement/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/FactoryMethodAssignement2/pom.xml" />
-        <option value="$PROJECT_DIR$/PractiseExample/pom.xml" />
-        <option value="$PROJECT_DIR$/PractiseExample1/pom.xml" />
-        <option value="$PROJECT_DIR$/TemplateAssignement/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">

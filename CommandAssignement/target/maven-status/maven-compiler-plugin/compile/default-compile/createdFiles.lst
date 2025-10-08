@@ -1,0 +1,9 @@
+MoveCursorUpCommand.class
+PixelArtEditor.class
+MoveCursorRightCommand.class
+PixelArtModel.class
+GenerateCodeCommand.class
+MoveCursorLeftCommand.class
+TogglePixelCommand.class
+Command.class
+MoveCursorDownCommand.class

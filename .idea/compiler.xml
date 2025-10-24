@@ -24,6 +24,7 @@
         <module name="SingletonAssignement" />
         <module name="BuilderAssignement" />
         <module name="MediatorAssignement" />
+        <module name="1" />
         <module name="AdapterAssignement" />
         <module name="StateAssignement" />
         <module name="PractiseAssignement" />
